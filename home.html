@@ -116,14 +116,17 @@ P {font-size: Large;}
       <p class="w3-opacity w3-center"><i>You can interact with the map below. It may take some time to load.</i></p>
       <p class="w3-opacity w3-center"><i> You must be on the Fleming College network to connect to the data</i></p><br>
       <!-- Centering iFrame based on method at https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally-->
-      <p id = "Map" class="w3-container w3-content w3-padding-64"><iframe height=720 width=1080 src="https://luna.flemingcollege.ca/Html5Viewer/Index.html?configBase=https://luna.flemingcollege.ca/Geocortex/Essentials/REST/sites/Delta_Water_Infrastructure/viewers/Delta_Viewer/virtualdirectory/Resources/Config/Default"></iframe></p>
-     </div>
+      <div id = "Map">
+      <p class="w3-container w3-content w3-padding-64"><iframe height=720 width=1080 src="https://luna.flemingcollege.ca/Html5Viewer/Index.html?configBase=https://luna.flemingcollege.ca/Geocortex/Essentials/REST/sites/Delta_Water_Infrastructure/viewers/Delta_Viewer/virtualdirectory/Resources/Config/Default"></iframe></p>
+      </div>
+      </div>
    </div>
 
   <!-- The Methodology Section-->
   <div class="w3-content w3-center w3-padding-64" style="max-width:1000px" id="screenshot">
     <h1> Screenshots </h1>
     <p> Using Geocortex Essentials 4 and Geocortex Essentials Workflow, a workflow was based off of a query example on Fleming College’s Collaborative Projects of 2019. This example was configured to retrieve a pipe material query for the water infrastructure of Naperville, Illinois. The workflow retrieves query information from a map service published to the Luna server at Fleming College, as such only computers connected directly to it have access and can load the data. Configuring the workflow was a trial and error process, and to demonstrate the learning of Geocortex Essentials Workflow, all iterations of the workflow were left in the final product. Material Search V2 is the last and most polished version of the query workflow. </p>
+
     <p> <a href="https://abeldan.github.io/GEOM99/testpdf.pdf" target="_blank"> Click here for a full version of our methodology </a></p>
     <!-- Target:blank from https://www.w3schools.com/html/html_links.asp-->
   </div>
